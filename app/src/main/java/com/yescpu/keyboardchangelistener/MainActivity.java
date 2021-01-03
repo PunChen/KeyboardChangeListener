@@ -35,6 +35,10 @@ public class MainActivity extends AppCompatActivity implements KeyboardChangeLis
         mKeyboardChangeListener = new KeyboardChangeListener(this);
         mKeyboardChangeListener.setKeyBoardListener(this);
     }
+    public void test(){
+        int a,b;
+        
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
